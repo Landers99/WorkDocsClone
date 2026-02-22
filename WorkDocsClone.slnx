@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WorkDocsClone.Api/WorkDocsClone.Api.csproj" />
+    <Project Path="src/WorkDocsClone.Application/WorkDocsClone.Application.csproj" />
+    <Project Path="src/WorkDocsClone.Contracts/WorkDocsClone.Contracts.csproj" />
+    <Project Path="src/WorkDocsClone.Domain/WorkDocsClone.Domain.csproj" />
+    <Project Path="src/WorkDocsClone.Infrastructure/WorkDocsClone.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/WorkDocsClone.Tests/WorkDocsClone.Tests.csproj" />
+  </Folder>
+</Solution>
