@@ -52,3 +52,14 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# SQLite runtime files
+*.db
+*.db-wal
+*.db-shm
+
+# Local app data
+data/
+**/data/
+blobs/
+**/blobs/

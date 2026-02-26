@@ -1,4 +1,4 @@
-namespace WorkDocsClone.Domain.Entitites;
+namespace WorkDocsClone.Domain.Entities;
 using System;
 
 public sealed class DocumentVersion
