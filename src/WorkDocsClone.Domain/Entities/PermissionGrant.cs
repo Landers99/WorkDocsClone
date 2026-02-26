@@ -1,3 +1,5 @@
+using WorkDocsClone.Domain.Enums;
+
 namespace WorkDocsClone.Domain.Entities;
 
 public sealed class PermissionGrant
@@ -8,5 +10,5 @@ public sealed class PermissionGrant
     public Guid GrantedToUserId { get; set; }
     public PermissionRole Role { get; set; }
     public Guid GrantedByUserId { get; set; }
-    public DateTimeOffSet CreatedAtUtc { get; set; }
+    public DateTimeOffset CreatedAtUtc { get; set; }
 }

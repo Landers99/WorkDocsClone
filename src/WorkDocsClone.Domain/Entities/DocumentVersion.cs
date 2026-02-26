@@ -1,4 +1,5 @@
 namespace WorkDocsClone.Domain.Entitites;
+using System;
 
 public sealed class DocumentVersion
 {
@@ -10,5 +11,5 @@ public sealed class DocumentVersion
     public string Sha256 { get; set; } = null!;
     public string BlobPath { get; set; } = null!;
     public string? ChangeNote { get; set; }
-    public DateTimeOffSet CreatedAtUtc { get; set; }
+    public DateTimeOffset CreatedAtUtc { get; set; }
 }
