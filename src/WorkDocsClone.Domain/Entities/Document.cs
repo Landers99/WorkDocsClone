@@ -8,6 +8,6 @@ public sealed class Document
     public string Name { get; set; } = null!;
     public string ContentType { get; set; } = null!;
     public Guid? CurrentVersionId { get; set; }
-    public DateTimeOffSet CreatedAtUtc { get; set; }
-    public DateTimeOffSet UpdatedAtUtc { get; set; }
+    public DateTimeOffset CreatedAtUtc { get; set; }
+    public DateTimeOffset UpdatedAtUtc { get; set; }
 }
